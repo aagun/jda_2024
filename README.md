@@ -7,3 +7,4 @@ webiste resmi [Jabar Digital Academy](https://digitalacademy.jabarprov.go.id/)
 
 - Computational Thinking
 - PHP Fundamental Quiz
+- Assesment
