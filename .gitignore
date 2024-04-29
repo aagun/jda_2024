@@ -236,6 +236,6 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 # Docker
-**/**/docker/**
-**/**/docker/mysql
-!**/**/docker/mysql/mysql.env
+/second-phase/2.tugas-mysql/docker/**
+!/second-phase/2.tugas-mysql/docker/mysql
+!/second-phase/2.tugas-mysql/docker/mysql/mysql.env
