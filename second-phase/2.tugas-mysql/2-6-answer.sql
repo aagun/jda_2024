@@ -8,7 +8,6 @@ WHERE status = 'paid';
 SELECT YEAR(date) AS year,
        COUNT(*)   AS total_repairment
 FROM services
-WHERE status = 'on repair'
 GROUP BY YEAR(date);
 
 
@@ -21,8 +20,6 @@ FROM
     LEFT JOIN services s ON s.client_id = u.id
 WHERE s.client_id IS NULL
   AND u.role = 3;
-
-
 
 
 -- 5. tampilkan data client beserta jumlah perbaikan yang dilakukan, urutkan berdasarkan perbaikan terbanyak
