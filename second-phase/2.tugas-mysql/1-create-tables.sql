@@ -62,7 +62,6 @@ ALTER TABLE services
                 REFERENCES devices (id);
 
 -- LOAD DUMMY DATA
-
 INSERT INTO roles (id, name)
 VALUES (1, 'admin');
 INSERT INTO roles (id, name)
@@ -187,8 +186,11 @@ VALUES (15, 4, 14, 15, STR_TO_DATE('10 Oct 2023', '%d %b %Y'), 'unpaid');
 
 SELECT * FROM roles;
 
+
 SELECT * FROM users;
 
+
 SELECT * FROM devices;
+
 
 SELECT * FROM services;
